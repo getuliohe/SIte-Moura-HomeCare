@@ -1,0 +1,99 @@
+.card-apresentacao{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 3%;
+    align-items: center;
+}
+
+.card-apresentacao__texto{
+    width: 80%;
+    text-align: center;
+}
+
+.tituloApresentacao{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.nomeEmpresa{
+    color: var(--vermelho);
+    font-weight: 700;
+}
+
+.card-apresentacao__texto_botao{
+    padding: 1em;
+    margin: 3em;
+    background-color: var(--vermelho);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card-apresentacao__texto_botao_link{
+    text-decoration: none;
+    color: var(--claro);
+    font-size: 16px;
+}
+
+.card-apresentacao__fundo-imagem{
+    width: 30%;
+    background-color: var(--vermelho);
+    padding: 12em 5em;
+    border-radius: 20px;
+}
+
+.card-sobrenos{
+    flex-direction: column-reverse;
+}
+
+.card__sobre-nos__texto{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.card__sobre-nos__texto__destaque{
+    font-size: 36px;
+    color: var(--vermelho);
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+@media screen and (min-width:740px) {
+    .card-apresentacao{
+        flex-direction: row;
+        padding: 3em 7%;
+        justify-content: space-between;
+    }
+    
+    .card-apresentacao__texto{
+        width: 50%;
+        text-align: start;
+    }
+    
+    .tituloApresentacao{
+        font-size: 56px;
+    }
+    
+    .card-apresentacao__texto_botao_link{
+        font-size: 24px;
+    }
+    
+    .card__sobre-nos__texto{
+        font-size: 56px;
+    }
+
+    .card__sobre-nos__texto__destaque{
+        font-size: 56px;
+    }
+
+    .texto{
+        text-align: end;
+    }
+
+    .card-sobrenos__texto{
+        padding: 10%;
+    }
+}

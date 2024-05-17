@@ -1,0 +1,18 @@
+@import url("./styles/header.css");
+@import url("./styles/main.css");
+@import url("./styles/carrossel.css");
+
+:root{
+    --vermelho:#E72929;
+    --rosa:#FF5BAE;
+    --bege:#FFE4CF;
+    --bege-claro:#FFFDD7;
+
+    --claro:#FFFFFF;
+    --escuro:#000000;
+}
+
+body{
+    background-color: var(--bege);
+    color: var(--escuro);
+}

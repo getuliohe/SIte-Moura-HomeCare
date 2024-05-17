@@ -1,0 +1,16 @@
+.carrossel__cabecalho{
+    width: 100%;
+    padding: 1em 0;
+    background-color: var(--bege-claro);
+    border-top: 1px solid var(--escuro);
+    border-bottom:1px solid var(--escuro);
+    text-align: center;
+}
+
+.carrossel__cabecalho__texto{
+    font-size: 24px;
+}
+
+.carrossel__cabecalho__texto-destaque{
+    color: var(--vermelho);
+}

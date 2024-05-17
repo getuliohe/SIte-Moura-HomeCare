@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moura HomeCare</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script defer>
+        const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        spaceBetween: 20,
+        slidesPerView: 3,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        disabledClass: 'disabled_swiper_button',
+        },
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</head>
+<body>
+    <div class="teto"></div>
+    <header class="cabecalho">
+        <h3 class="cabecalho__logo">Moura HomeCare</h3>
+        <nav class="cabecalho__navigation">
+            <a href="#" class="cabecalho__navigation_link-destaque cabecalho__navigation_links">Início</a>
+            <a href="#" class="cabecalho__navigation_links">Sobre nós</a>
+            <a href="#" class="cabecalho__navigation_links">Trabalhe conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card-apresentacao">
+            <div class="card-apresentacao__texto">
+                <h1 class="tituloApresentacao"><b class="nomeEmpresa">Moura HomeCare</b> cuidando de quem importa pra você</h1> 
+                <div class="card-apresentacao__texto_botao">
+                    <a href="#" class="card-apresentacao__texto_botao_link">Fale com a gente</a>
+                </div>
+            </div>
+            <div class="card-apresentacao__fundo-imagem">
+                <!-- <img src="" alt=""> -->
+            </div>
+        </section>
+
+        <section class="card-apresentacao card-sobrenos">
+            <div class="card-apresentacao__fundo-imagem">
+                <!-- <img src="" alt=""> -->
+            </div>
+            <div class="card-apresentacao__texto card-sobrenos__texto">
+                <h2 class="card__sobre-nos__texto texto"><b class="underline">Conheça mais <br>da nossa</b><b class="card__sobre-nos__texto__destaque"><br>historia</b></h2>
+                <div class="card-apresentacao__texto_botao">
+                    <a href="#" class="card-apresentacao__texto_botao_link">Fale com a gente</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <header class="carrossel__cabecalho">
+                <h2 class="carrossel__cabecalho__texto">A nossa <b class="carrossel__cabecalho__texto-destaque">diferença</b> no dia a dia</h2>
+            </header>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+          
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+          
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        
+        </section>
+    </main>
+</body>
+</html>
