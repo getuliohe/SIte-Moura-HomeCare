@@ -15,4 +15,5 @@
 body{
     background-color: var(--bege);
     color: var(--escuro);
+    box-sizing: border-box;
 }

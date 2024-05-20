@@ -14,16 +14,17 @@
 
 .cabecalho__logo{
     font-size: 20px;
+    margin-right: auto;
 }
 
 .cabecalho__navigation{
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
     margin: 0 1em;
 }
 
 .cabecalho__navigation_links{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 100;
     text-decoration: none;
     color: var(--escuro);

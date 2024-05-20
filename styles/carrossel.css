@@ -9,8 +9,20 @@
 
 .carrossel__cabecalho__texto{
     font-size: 24px;
+    font-weight: 500;
 }
 
 .carrossel__cabecalho__texto-destaque{
     color: var(--vermelho);
+}
+
+.swiper-slide{
+    display: flex;
+    
+}
+
+.card__diferenca{
+    width: 20%;
+    padding: 1em;
+    background-color: var(--bege-claro); 
 }

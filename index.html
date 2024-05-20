@@ -9,23 +9,6 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-    <script defer>
-        const swiper = new Swiper('.swiper', {
-        direction: 'horizontal',
-        spaceBetween: 20,
-        slidesPerView: 3,
-        navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        disabledClass: 'disabled_swiper_button',
-        },
-        pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-        });
-    </script>
 </head>
 <body>
     <div class="teto"></div>
@@ -58,33 +41,91 @@
             <div class="card-apresentacao__texto card-sobrenos__texto">
                 <h2 class="card__sobre-nos__texto texto"><b class="underline">Conheça mais <br>da nossa</b><b class="card__sobre-nos__texto__destaque"><br>historia</b></h2>
                 <div class="card-apresentacao__texto_botao">
-                    <a href="#" class="card-apresentacao__texto_botao_link">Fale com a gente</a>
+                    <a href="#" class="card-apresentacao__texto_botao_link">Sobre nós</a>
                 </div>
             </div>
         </section>
 
-        <section class="carrossel">
+        <!-- <section class="carrossel">
             <header class="carrossel__cabecalho">
                 <h2 class="carrossel__cabecalho__texto">A nossa <b class="carrossel__cabecalho__texto-destaque">diferença</b> no dia a dia</h2>
             </header>
             <div class="swiper">
-                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
-                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide">
+                        <div class="card__diferenca">
+                            <p class="card__diferenca_texto">
+                                1. Assistência diária personalizada: <br> Os idosos recebem assistência individualizada para suas necessidades diárias, como higiene pessoal, alimentação e administração de medicamentos, adaptadas às suas condições de saúde específicas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__diferenca">
+                            <p class="card__diferenca_texto">
+                                2. Companhia constante: <br> A presença regular da cuidadora proporciona companhia e suporte emocional, reduzindo o isolamento social e melhorando o bem-estar mental dos idosos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__diferenca">
+                            <p class="card__diferenca_texto">
+                                3. Segurança e monitoramento: <br> As cuidadoras homecare garantem um ambiente seguro para os idosos, prevenindo acidentes domésticos e monitorando sua saúde e bem-estar constantemente.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__diferenca">
+                            <p class="card__diferenca_texto">
+                                4. Maior independência: <br> Mesmo necessitando de assistência, os idosos podem manter um nível maior de independência em suas atividades diárias, pois as cuidadoras ajudam a realizar tarefas sem interferir na autonomia do idoso sempre que possível.
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__diferenca">
+                            <p class="card__diferenca_texto">
+                                5. Apoio nas atividades domésticas: <br> Além dos cuidados pessoais, as cuidadoras frequentemente auxiliam nas tarefas domésticas, como limpeza, preparação de refeições e compras, aliviando o fardo dessas responsabilidades para os idosos
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__diferenca">
+                            <p class="card__diferenca_texto">
+                                6. Coordenação com profissionais de saúde: <br> As cuidadoras homecare trabalham em conjunto com os profissionais de saúde, garantindo que os idosos recebam os cuidados médicos adequados, realizem consultas e sigam os planos de tratamento recomendados.
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
-          
-                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
           
-                <!-- If we need scrollbar -->
                 <div class="swiper-scrollbar"></div>
             </div>
         
-        </section>
+        </section> -->
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        spaceBetween: 20,
+        slidesPerView: 1,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        disabledClass: 'disabled_swiper_button',
+        },
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
