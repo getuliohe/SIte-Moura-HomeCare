@@ -35,7 +35,7 @@
     text-decoration: underline var(--vermelho);
 }
 
-@media screen and (min-width:740px){
+@media screen and (min-width:1000px){
     .teto{
         width: 100%;
         padding: 0.5em 0;
