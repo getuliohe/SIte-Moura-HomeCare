@@ -1,6 +1,7 @@
 @import url("./styles/header.css");
 @import url("./styles/main.css");
 @import url("./styles/carrossel.css");
+@import url("./styles/nosso-time.css");
 
 :root{
     --vermelho:#E72929;

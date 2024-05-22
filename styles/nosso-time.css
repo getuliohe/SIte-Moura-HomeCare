@@ -1,0 +1,56 @@
+.nosso-time{
+    background-color: var(--vermelho);
+    padding: 2em;
+    color: var(--bege);
+    text-align: center;
+}
+
+.nosso-time__titulo{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.nosso-time__cards{
+    margin-top:1em ;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card__texto{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nosso-time__cards_card_borda{
+    border-top: 1px solid var(--bege);
+    border-bottom: 1px solid var(--bege);
+    padding: 1em;
+}
+
+@media screen and (min-width:1000px) {
+    .nosso-time__titulo{
+        font-size: 44px;
+    }
+
+    .nosso-time__cards{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nosso-time__cards_card{
+        width: 30%;
+    }
+
+    .card__texto{
+        font-size: 36px;
+        font-weight: 300;
+    }
+
+    .nosso-time__cards_card_borda{
+        border-top: 0;
+        border-bottom: 0;
+        border-left: 1px solid var(--bege);
+        border-right: 1px solid var(--bege);
+    }
+}
