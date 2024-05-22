@@ -6,7 +6,6 @@
 
 .cabecalho{
     display: flex;
-    justify-content: space-between;
     padding: 0.75em 1em;
     border-bottom: 0.5px solid;
     align-items: center;
@@ -14,13 +13,14 @@
 
 .cabecalho__logo{
     font-size: 20px;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .cabecalho__navigation{
     display: flex;
     gap: 1.5em;
     margin: 0 1em;
+    display: none;
 }
 
 .cabecalho__navigation_links{
@@ -31,11 +31,30 @@
 }
 
 .cabecalho__navigation_link-destaque{
-    color: var(--vermelho);
-    text-decoration: underline var(--vermelho);
+    color: var(--claro);
+    text-decoration: underline var(--claro);
+}
+
+.lista-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: start;
+    position: absolute;
+    padding: 1em;
+    background-color: var(--vermelho);
+    border-radius: 0 0 20px 0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.desativado{
+    display: none;
 }
 
 @media screen and (min-width:1000px){
+    .container{
+        display: none;
+    }
     .teto{
         width: 100%;
         padding: 0.5em 0;
