@@ -71,6 +71,7 @@
     
     .cabecalho__logo{
         font-size: 36px;
+        margin: 0 auto 0 0;
     }
     
     .cabecalho__navigation{
@@ -84,6 +85,11 @@
         font-weight: 100;
         text-decoration: none;
         color: var(--escuro);
+    }
+
+    .cabecalho__navigation_links:hover{
+        color: var(--claro);
+        text-decoration: underline var(--claro);
     }
     
     .cabecalho__navigation_link-destaque{
